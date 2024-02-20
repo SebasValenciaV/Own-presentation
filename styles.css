@@ -50,9 +50,10 @@ body {
     margin-bottom: 20px;
 }
 
-.section__button {
+/* Estilo para el botón con el id "showDetails" */
+button#showDetails {
     padding: 15px 30px;
-    background-color: #009688;
+    background-color: #2196F3; /* Color azul */
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -60,7 +61,30 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.section__button:hover {
+/* Estilo para el botón con el id "showContact" */
+button#showContact {
+    padding: 15px 30px;
+    background-color: #FF9800; /* Color naranja */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para el botón con el id "backToTop" */
+button#backToTop {
+    padding: 15px 30px;
+    background-color: #4CAF50; /* Color verde */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section__button:hover,
+.footer__button:hover {
     background-color: #00796b;
 }
 
@@ -88,16 +112,3 @@ body {
     margin-bottom: 10px;
 }
 
-.footer__button {
-    padding: 15px 30px;
-    background-color: #009688;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.footer__button:hover {
-    background-color: #00796b;
-}
