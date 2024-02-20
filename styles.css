@@ -47,11 +47,10 @@ body {
     margin-bottom: 20px;
 }
 
-/* Estilo para todos los botones en las secciones y el footer */
-.section__button,
-.footer__button {
+/* Estilo para botones específicos en las secciones */
+.section .button-primary {
     padding: 15px 30px;
-    background-color: #2196F3; /* Color azul */
+    background-color: #4CAF50; /* Color verde */
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -59,9 +58,36 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.section__button:hover,
-.footer__button:hover {
-    background-color: #00796b;
+.section .button-primary:hover {
+    background-color: #07850d; /* Color verde oscuro */
+}
+
+.section .button-secondary {
+    padding: 15px 30px;
+    background-color: #f44336; /* Color rojo */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section .button-secondary:hover {
+    background-color: #761915; /* Color rojo oscuro */
+}
+
+.footer .button-alert {
+    padding: 15px 30px;
+    background-color: #FFC107; /* Color amarillo */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer .button-alert:hover {
+    background-color: #a57c04; /* Color amarillo oscuro */
 }
 
 /* Estilos del pie de página */
