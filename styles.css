@@ -5,7 +5,6 @@ body {
     padding: 0;
     background-color: #f7f7f7;
     color: #333;
-    transition: background-color 0.5s ease;
 }
 
 /* Estilos del encabezado */
@@ -14,7 +13,6 @@ body {
     padding: 20px;
     text-align: center;
     color: #fff;
-    transition: background-color 0.5s ease;
 }
 
 .header__title {
@@ -29,7 +27,6 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .section__title {
@@ -50,32 +47,11 @@ body {
     margin-bottom: 20px;
 }
 
-/* Estilo para el botón con el id "showDetails" */
-button#showDetails {
+/* Estilo para todos los botones en las secciones y el footer */
+.section__button,
+.footer__button {
     padding: 15px 30px;
     background-color: #2196F3; /* Color azul */
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-/* Estilo para el botón con el id "showContact" */
-button#showContact {
-    padding: 15px 30px;
-    background-color: #FF9800; /* Color naranja */
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-/* Estilo para el botón con el id "backToTop" */
-button#backToTop {
-    padding: 15px 30px;
-    background-color: #4CAF50; /* Color verde */
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -88,20 +64,12 @@ button#backToTop {
     background-color: #00796b;
 }
 
-/* Ocultar secciones */
-.hidden {
-    transform: translateY(-50px);
-    opacity: 0;
-    visibility: hidden; /* Ocultamos pero no desplazamos */
-}
-
 /* Estilos del pie de página */
 .footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-    transition: background-color 0.5s ease;
 }
 
 .footer__text {
@@ -111,4 +79,3 @@ button#backToTop {
 .footer__address {
     margin-bottom: 10px;
 }
-
